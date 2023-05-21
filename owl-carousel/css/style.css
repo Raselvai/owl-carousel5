@@ -1,0 +1,138 @@
+/*======================
+   01. Google fonts
+========================*/
+@font-face {
+    font-family: bromega-Regular;
+    src: url(../webfonts/bromega-Regular.ttf);
+}
+
+@font-face {
+    font-family: bromega-Bold;
+    src: url(../webfonts/bromega-Bold.ttf);
+}
+
+
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: #ffffff;
+	color: #ffffff;
+	font-family: bromega-Regular;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.card_wrapper {
+	background: linear-gradient(180deg, #23273A 46.35%, #FA4A6F 119.01%);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.head_text {
+	font-family: bromega-Bold;
+	font-size: 45px;
+}
+
+.head_para {
+	margin-top: 15px;
+}
+
+.card_box {
+	background: #ffffff;
+	border-radius: 40px;
+	margin-top: 40px;
+	transition: .3s;
+	margin-bottom: 40px;
+}
+
+.card_box:hover {
+	box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.05);
+	transform: translateY(-10px);
+}
+
+.card_text {
+	padding: 30px 20px 25px 20px;
+}
+
+.card_text h4 {
+	font-size: 18px;
+	font-family: bromega-Bold;
+	color: #FA4A6F;
+}
+
+.card_text p {
+	 font-size: 14px;
+	 line-height: 150%;
+	 margin-top: 10px;
+	 color: #23273A;
+}
+
+.slider_carousel .owl-nav {
+	 position: absolute;
+	 top: 50%;
+	 width: 100%;
+}
+
+.slider_carousel .owl-prev, .slider_carousel .owl-next {
+	width: 40px;
+	height: 40px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+}
+
+.slider_carousel .owl-next {
+    right: -50px;
+}
+
+.slider_carousel .owl-prev {
+    left: -50px;
+}
